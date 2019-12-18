@@ -1,0 +1,9 @@
+1 新建项目
+scrapy startproject xicidailispider
+2 创建爬虫（在有.cfg的目录创建）
+scrapy genspider xicidaili xicidaili.com（scrapy genspider 爬虫名字 网站域名）
+注意：
+1 爬虫名字不要和项目名字一样
+2 网站域名是允许爬虫采集的域名
+
+运行爬虫：scrapy crawl xicidaili

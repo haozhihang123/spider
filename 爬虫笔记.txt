@@ -1,0 +1,11 @@
+分析网站：
+	提取数据
+	---正则表达式（基础，必会，难掌握）
+	---XPath --->从HTML中提取数据语法
+	---CSS   --->从HTML中提取数据语法（语法不同）
+
+	response.xpath(xpath语法).get()
+
+	get()是得到一个元素
+	geall()是得到多个元素
+运行爬虫：scrapy crawl xicidaili
